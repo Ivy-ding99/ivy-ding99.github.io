@@ -31,7 +31,7 @@ img {
 	overflow: hidden;
   }
   .reviewer-card h3{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: bold;
 	
   }
@@ -116,18 +116,7 @@ img {
 
 /*********review cards end------------------*/
 /*------------------------------ Sprites ------------------------------*/
-#navigation li, #navigation li a:hover, #navigation li.selected a {
-	background-image: url(../images/bg-menu.png);
-	background-repeat: repeat-x;
-}
-#contents div.box, #contents div.box > div, #contents div.body {
-	background-image: url(../images/content-box.png);
-	background-repeat: no-repeat;
-}
-#main div.box, #main div.box > div, #main div.box > div > div {
-	background-image: url(../images/bg-box.png);
-	background-repeat: no-repeat;
-}
+
 /*------------------------------ HEADER ------------------------------*/
 #header {
 	margin-bottom: 20px;
@@ -216,6 +205,8 @@ img {
 #contents h2 a {
 	color: #0d0701;
 	text-decoration: none;
+	font-family: "Roboto Slab", serif;
+
 }
 #contents p {
 	color: #0a0b00;
@@ -241,6 +232,7 @@ img {
 	padding: 0 0 6px;
 	font-family: 'Sofia' sans-serif;
 }
+
 #contents div.box > div {
 	background-position: -1745px top;
 	padding: 6px 0 0;
@@ -251,6 +243,7 @@ img {
 	background-repeat: repeat-y;
 	min-height: 980px;
 	padding: 30px 40px 0;
+	font-family: 'Sofia' sans-serif;
 
 }
 /** Adbox **/
